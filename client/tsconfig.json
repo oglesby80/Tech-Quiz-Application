@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2022",         // Use modern JavaScript features
+    "module": "esnext",         // Use ES Module syntax
+    "moduleResolution": "node", // Resolves modules in Node.js style
+    "outDir": "./dist",         // Directory for compiled files
+    "strict": true,             // Enables strict type-checking
+    "esModuleInterop": true,    // Compatibility with CommonJS modules
+    "resolveJsonModule": true,  // Allows importing JSON files
+    "skipLibCheck": true,       // Skips type declaration checks for faster builds
+    "jsx": "react-jsx",         // Enables JSX for React
+    "sourceMap": true           // Generates source maps for debugging
+  },
+  "include": ["src"],           // Include all files in the src folder
+  "exclude": ["node_modules"]   // Exclude node_modules
+}
+
+
+

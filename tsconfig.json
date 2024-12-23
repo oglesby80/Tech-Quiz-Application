@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2022",         // Enables modern JavaScript features
+    "module": "esnext",         // Enables ES Module syntax
+    "moduleResolution": "node", // Resolves modules in Node.js style
+    "outDir": "./dist",         // Directory for compiled files
+    "strict": true,             // Enables strict type-checking
+    "esModuleInterop": true,    // Compatibility with CommonJS modules
+    "resolveJsonModule": true,  // Allows importing JSON files
+    "skipLibCheck": true,       // Skips type declaration checks for faster builds
+    "allowSyntheticDefaultImports": true, // Allows default imports for modules
+    "allowJs": true,            // Enables JavaScript files in the project
+    "forceConsistentCasingInFileNames": true, // Enforces consistent file naming
+    "noImplicitReturns": true,  // Prevents missing return statements
+    "topLevelAwait": true       // Allows top-level `await`
+  },
+  "include": ["src"],           // Include all files in the src folder
+  "exclude": ["node_modules"]   // Exclude node_modules
+}
+
+
